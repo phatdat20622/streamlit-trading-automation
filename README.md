@@ -1,22 +1,26 @@
-# Trading Data Automation — Streamlit Demo
+# Streamlit Trading Automation
 
-Small demo project for fetching, cleaning, analyzing, and exporting market data using Yahoo Finance (via `yfinance`) and Streamlit.
+A lightweight Streamlit dashboard that fetches and analyzes real stock or crypto data using Yahoo Finance (`yfinance`), featuring key trading indicators such as SMA, EMA, and RSI.
 
-## Features
-- Fetch historical market data for a given ticker (e.g., AAPL, BTC-USD, ^VNINDEX).
-- Clean and preprocess data (compute returns, rolling mean, rolling volatility).
-- Display interactive charts and summary statistics.
-- Export cleaned and raw CSV files.
+---
 
-## Prerequisites
-- Python 3.9+
-- `pip` available
+## 🚀 Features
+- Real-time data fetch from Yahoo Finance API  
+- Technical indicators: **SMA (14)**, **EMA (14)**, **RSI (14)**  
+- Interactive candlestick chart (Plotly)  
+- CSV export for further analysis  
+- Built for trading & automation-focused data roles  
 
-## Installation
+---
+
+## 🧩 Tech Stack
+**Python**, **Streamlit**, **yfinance**, **Plotly**, **pandas**, **NumPy**
+
+---
+
+## 🛠️ Installation
 ```bash
-git clone <your-repo-url>
-cd trading_data_dashboard
-python -m venv venv
-source venv/bin/activate  # macOS / Linux
-venv\Scripts\activate     # Windows
+git clone https://github.com/<yourusername>/streamlit-trading-automation.git
+cd streamlit-trading-automation
 pip install -r requirements.txt
+streamlit run app.py
