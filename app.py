@@ -83,7 +83,7 @@ st.title("📈 Trading Data Automation Dashboard")
 st.markdown(
     "Fetch and analyze real market data using Yahoo Finance API. "
     "Includes SMA, EMA, and RSI indicators — built for data automation & trading analysis."
-    "Created by Phat Dat."
+    "Created by Phat Dat."  
 )
 
 with st.sidebar:

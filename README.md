@@ -24,3 +24,14 @@ git clone https://github.com/<yourusername>/streamlit-trading-automation.git
 cd streamlit-trading-automation
 pip install -r requirements.txt
 streamlit run app.py
+
+## 🌍 Live Demo
+Check out the live dashboard here:  
+👉 [Streamlit Trading Automation](https://streamlit-trading-automation-phatdat20622.streamlit.app)
+
+---
+
+## 📸 Preview
+![Trading Dashboard Screenshot](assets/demo.png)
+
+---
